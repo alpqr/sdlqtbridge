@@ -1,0 +1,1 @@
+gcc helloworld.c `sdl2-config --cflags --libs` -lGL -L../../lib -Wl,-rpath,../../lib -lsdlqtbridge
